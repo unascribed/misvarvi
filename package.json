@@ -1,0 +1,16 @@
+{
+  "name": "misvarvi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Una Thompson <una@unascribed.com> (unascribed)",
+  "license": "MIT",
+  "dependencies": {
+    "chromatism": "^3.0.0",
+    "color-name-list": "^3.45.0",
+    "delta-e": "0.0.7"
+  }
+}
