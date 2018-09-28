@@ -1,6 +1,6 @@
 {
   "name": "misvarvi",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A command-line tool to name colors using CIEDE2000, inspired by cherangi",
   "repository": "unascribed/misvarvi",
   "main": "index.js",
@@ -11,5 +11,9 @@
     "chromatism": "^3.0.0",
     "color-name-list": "^3.45.0",
     "delta-e": "0.0.7"
-  }
+  },
+  "keywords": [
+    "color", "colour", "names", "color-names", "css", "hex", "rgb",
+    "cherangi", "color-keyword", "name", "color-name", "cli"
+  ]
 }
