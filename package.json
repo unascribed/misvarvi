@@ -1,7 +1,7 @@
 {
   "name": "misvarvi",
-  "version": "1.0.1",
-  "description": "A command-line tool to compare two colors using CIEDE2000, inspired by cherangi",
+  "version": "1.0.2",
+  "description": "A command-line tool to name colors using CIEDE2000, inspired by cherangi",
   "repository": "unascribed/misvarvi",
   "main": "index.js",
   "bin": "index.js",
