@@ -1,4 +1,5 @@
 # misvarvi
+[![npm](https://img.shields.io/npm/v/misvarvi.svg)](https://www.npmjs.com/package/misvarvi)
 
 misvarvi, Estonian for "What color?", is a command-line tool that finds
 the closest color in [color-name-list](https://github.com/meodai/color-names)
@@ -8,15 +9,17 @@ but was designed for command-line use, so it emits a well-formed JSON
 object instead of a debug object, and was also switched to use the CIEDE2000
 algorithm instead of the CIE94 algorithm, as it's more accurate.
 
+## Installation
+`npm install --global misvarvi`
+
 ## Usage
 
-Invoke misvarvi as you would any standard Node script. CSS HSL and CSS
-RGB are also accepted, among a few other less useful forms. (See the
-[chromatism docs](https://github.com/toish/chromatism#colour-modes) for
-all valid forms.)
+Hex colors, CSS HSL, and CSS RGB are accepted, among a few other less
+useful forms. (See the [chromatism docs](https://github.com/toish/chromatism#colour-modes)
+for all valid forms.)
 
 ```bash
-node misvarvi/index.js '#AE3440'
+misvarvi '#AE3440'
 ```
 
 It will return a JSON object, which you can then parse using something like

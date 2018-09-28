@@ -1,11 +1,10 @@
 {
   "name": "misvarvi",
   "version": "1.0.0",
-  "description": "",
+  "description": "A command-line tool to compare two colors using CIEDE2000, inspired by cherangi",
+  "repository": "unascribed/misvarvi",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "bin": "index.js",
   "author": "Una Thompson <una@unascribed.com> (unascribed)",
   "license": "MIT",
   "dependencies": {
